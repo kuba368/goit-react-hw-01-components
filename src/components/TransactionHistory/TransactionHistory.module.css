@@ -1,0 +1,33 @@
+.transactionHistory {
+  margin: auto;
+  width: 900px;
+  text-align: center;
+  background-color: black;
+}
+.tableCell {
+  width: 300px;
+  padding-block: 10px;
+}
+.tableRow {
+  background-color: floralwhite;
+}
+.tableRow:nth-child(even) {
+  background-color: rgb(184, 178, 178);
+}
+.tableHead {
+  background-color: lightblue;
+  text-transform: uppercase;
+  font-size: x-large;
+  height: 55px;
+}
+.tableType {
+  text-transform: capitalize;
+  composes: tableCell;
+}
+.tableAmount {
+  composes: tableCell;
+}
+.tableCurrency {
+  text-transform: uppercase;
+  composes: tableCell;
+}

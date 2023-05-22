@@ -1,0 +1,30 @@
+.item {
+  width: 320px;
+  height: 100px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 3px -2px 8px rgba(0, 0, 0, 0.3);
+  gap: 20px;
+  padding-left: 20px;
+}
+.avatar {
+  border-radius: 4px;
+}
+.name {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: x-large;
+}
+.status__false {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+.status__true {
+  composes: status__false;
+  background-color: green;
+}
